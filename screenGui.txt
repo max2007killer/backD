@@ -10,7 +10,7 @@
 -- Instances: 149 | Scripts: 15 | Modules: 14
 local G2L = {};
 
--- StarterGui.backdoor.exe v8
+-- StarterGui.III.exe v8
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ResetOnSpawn"] = false;
 G2L["1"]["Name"] = [[III.exe v8]];
@@ -64,7 +64,7 @@ G2L["6"]["Image"] = [[rbxassetid://4467776646]];
 G2L["6"]["Size"] = UDim2.new(0, 14, 0, 14);
 G2L["6"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.ImageLabel.Hitbox
+-- StarterGui.III.exe v8.Main.Topbar.RightOutline.ImageLabel.Hitbox
 G2L["7"] = Instance.new("TextButton", G2L["6"]);
 G2L["7"]["TextSize"] = 14;
 G2L["7"]["TextTransparency"] = 1;
@@ -108,7 +108,7 @@ G2L["b"]["TextSize"] = 20;
 G2L["b"]["TextColor3"] = Color3.fromRGB(78, 78, 78);
 G2L["b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["b"]["Size"] = UDim2.new(1, 0, 0.6330000162124634, 0);
-G2L["b"]["Text"] = [[backdoor.exe - v8.0.0]];
+G2L["b"]["Text"] = [[III.exe - v8.0.0]];
 G2L["b"]["Name"] = [[VersionTitle]];
 G2L["b"]["Font"] = Enum.Font.Roboto;
 G2L["b"]["BackgroundTransparency"] = 1;
@@ -152,7 +152,7 @@ G2L["f"]["AnchorPoint"] = Vector2.new(0.5, 0);
 G2L["f"]["Size"] = UDim2.new(0, 10, 0, 313);
 G2L["f"]["Position"] = UDim2.new(0.7248364686965942, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Borders.Frame
+-- StarterGui.III.exe v8.Main.Sidebar.Borders.Frame
 G2L["10"] = Instance.new("Frame", G2L["e"]);
 G2L["10"]["BorderSizePixel"] = 0;
 G2L["10"]["BackgroundColor3"] = Color3.fromRGB(19, 19, 19);
@@ -160,7 +160,7 @@ G2L["10"]["AnchorPoint"] = Vector2.new(0.5, 0);
 G2L["10"]["Size"] = UDim2.new(0, 22, 0, 6);
 G2L["10"]["Position"] = UDim2.new(0.7441860437393188, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom
 G2L["11"] = Instance.new("Frame", G2L["d"]);
 G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["11"]["AnchorPoint"] = Vector2.new(0.5, 1);
@@ -169,13 +169,13 @@ G2L["11"]["Size"] = UDim2.new(0, 43, 0, 142);
 G2L["11"]["Position"] = UDim2.new(0.5, 0, 1, -6);
 G2L["11"]["Name"] = [[Bottom]];
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.UIListLayout
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.UIListLayout
 G2L["12"] = Instance.new("UIListLayout", G2L["11"]);
 G2L["12"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
 G2L["12"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["12"]["Padding"] = UDim.new(0, 10);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.InviteBtn
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.InviteBtn
 G2L["13"] = Instance.new("ImageLabel", G2L["11"]);
 G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["13"]["ImageColor3"] = Color3.fromRGB(35, 35, 35);
@@ -184,7 +184,7 @@ G2L["13"]["Size"] = UDim2.new(0, 28, 0, 28);
 G2L["13"]["Name"] = [[InviteBtn]];
 G2L["13"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.InviteBtn.ImageLabel
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.InviteBtn.ImageLabel
 G2L["14"] = Instance.new("ImageLabel", G2L["13"]);
 G2L["14"]["ScaleType"] = Enum.ScaleType.Fit;
 G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -195,7 +195,7 @@ G2L["14"]["Size"] = UDim2.new(0.7229999899864197, 0, 0.7229999899864197, 0);
 G2L["14"]["BackgroundTransparency"] = 1;
 G2L["14"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.InviteBtn.Hitbox
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.InviteBtn.Hitbox
 G2L["15"] = Instance.new("TextButton", G2L["13"]);
 G2L["15"]["TextSize"] = 14;
 G2L["15"]["TextTransparency"] = 1;
@@ -208,11 +208,11 @@ G2L["15"]["Text"] = [[]];
 G2L["15"]["Font"] = Enum.Font.SourceSans;
 G2L["15"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.InviteBtn.handler
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.InviteBtn.handler
 G2L["16"] = Instance.new("LocalScript", G2L["13"]);
 G2L["16"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.CharCounter
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.CharCounter
 G2L["17"] = Instance.new("TextLabel", G2L["11"]);
 G2L["17"]["TextWrapped"] = true;
 G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -228,11 +228,11 @@ G2L["17"]["Name"] = [[CharCounter]];
 G2L["17"]["Font"] = Enum.Font.Ubuntu;
 G2L["17"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Bottom.CharCounter.handler
+-- StarterGui.III.exe v8.Main.Sidebar.Bottom.CharCounter.handler
 G2L["18"] = Instance.new("LocalScript", G2L["17"]);
 G2L["18"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top
+-- StarterGui.III.exe v8.Main.Sidebar.Top
 G2L["19"] = Instance.new("Frame", G2L["d"]);
 G2L["19"]["ZIndex"] = 3;
 G2L["19"]["BorderSizePixel"] = 0;
@@ -243,7 +243,7 @@ G2L["19"]["Size"] = UDim2.new(0, 43, 0, 141);
 G2L["19"]["Position"] = UDim2.new(0.5080659985542297, 0, 0.04792332276701927, 0);
 G2L["19"]["Name"] = [[Top]];
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.HomeBtn
+-- StarterGui.III.exe v8.Main.Sidebar.Top.HomeBtn
 G2L["1a"] = Instance.new("ImageLabel", G2L["19"]);
 G2L["1a"]["ScaleType"] = Enum.ScaleType.Fit;
 G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -255,7 +255,7 @@ G2L["1a"]["Name"] = [[HomeBtn]];
 G2L["1a"]["BackgroundTransparency"] = 1;
 G2L["1a"]["Position"] = UDim2.new(0.5, 0, 0, 5);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.HomeBtn.Hitbox
+-- StarterGui.III.exe v8.Main.Sidebar.Top.HomeBtn.Hitbox
 G2L["1b"] = Instance.new("TextButton", G2L["1a"]);
 G2L["1b"]["TextSize"] = 14;
 G2L["1b"]["TextTransparency"] = 1;
@@ -268,7 +268,7 @@ G2L["1b"]["Text"] = [[]];
 G2L["1b"]["Font"] = Enum.Font.SourceSans;
 G2L["1b"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.MenuBtn
+-- StarterGui.III.exe v8.Main.Sidebar.Top.MenuBtn
 G2L["1c"] = Instance.new("ImageLabel", G2L["19"]);
 G2L["1c"]["ScaleType"] = Enum.ScaleType.Fit;
 G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -280,7 +280,7 @@ G2L["1c"]["Name"] = [[MenuBtn]];
 G2L["1c"]["BackgroundTransparency"] = 1;
 G2L["1c"]["Position"] = UDim2.new(0.5, 0, 0, 45);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.MenuBtn.Hitbox
+-- StarterGui.III.exe v8.Main.Sidebar.Top.MenuBtn.Hitbox
 G2L["1d"] = Instance.new("TextButton", G2L["1c"]);
 G2L["1d"]["TextSize"] = 14;
 G2L["1d"]["TextTransparency"] = 1;
@@ -293,7 +293,7 @@ G2L["1d"]["Text"] = [[]];
 G2L["1d"]["Font"] = Enum.Font.SourceSans;
 G2L["1d"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.SettingsBtn
+-- StarterGui.III.exe v8.Main.Sidebar.Top.SettingsBtn
 G2L["1e"] = Instance.new("ImageLabel", G2L["19"]);
 G2L["1e"]["ScaleType"] = Enum.ScaleType.Fit;
 G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -305,7 +305,7 @@ G2L["1e"]["Name"] = [[SettingsBtn]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 G2L["1e"]["Position"] = UDim2.new(0.5, 0, 0, 85);
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.SettingsBtn.Hitbox
+-- StarterGui.III.exe v8.Main.Sidebar.Top.SettingsBtn.Hitbox
 G2L["1f"] = Instance.new("TextButton", G2L["1e"]);
 G2L["1f"]["TextSize"] = 14;
 G2L["1f"]["TextTransparency"] = 1;
@@ -318,7 +318,7 @@ G2L["1f"]["Text"] = [[]];
 G2L["1f"]["Font"] = Enum.Font.SourceSans;
 G2L["1f"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.Top.bg
+-- StarterGui.III.exe v8.Main.Sidebar.Top.bg
 G2L["20"] = Instance.new("ImageButton", G2L["19"]);
 G2L["20"]["Active"] = false;
 G2L["20"]["ZIndex"] = 0;
@@ -335,15 +335,15 @@ G2L["20"]["Name"] = [[bg]];
 G2L["20"]["Position"] = UDim2.new(0.5, 0, 0, 5);
 G2L["20"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Sidebar.handler
+-- StarterGui.III.exe v8.Main.Sidebar.handler
 G2L["21"] = Instance.new("LocalScript", G2L["d"]);
 G2L["21"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.UICorner
+-- StarterGui.III.exe v8.Main.UICorner
 G2L["22"] = Instance.new("UICorner", G2L["2"]);
 G2L["22"]["CornerRadius"] = UDim.new(0, 5);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping
+-- StarterGui.III.exe v8.Main.BodyClipping
 G2L["23"] = Instance.new("Frame", G2L["2"]);
 G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["23"]["BackgroundTransparency"] = 1;
@@ -352,7 +352,7 @@ G2L["23"]["ClipsDescendants"] = true;
 G2L["23"]["Position"] = UDim2.new(0, 43, 0, 32);
 G2L["23"]["Name"] = [[BodyClipping]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor
 G2L["24"] = Instance.new("ImageLabel", G2L["23"]);
 G2L["24"]["ZIndex"] = 2;
 G2L["24"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -366,25 +366,25 @@ G2L["24"]["Name"] = [[Executor]];
 G2L["24"]["BackgroundTransparency"] = 1;
 G2L["24"]["Position"] = UDim2.new(0, 0, -0.003000000026077032, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.Borders
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.Borders
 G2L["25"] = Instance.new("Folder", G2L["24"]);
 G2L["25"]["Name"] = [[Borders]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.Borders.Frame
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.Borders.Frame
 G2L["26"] = Instance.new("Frame", G2L["25"]);
 G2L["26"]["BorderSizePixel"] = 0;
 G2L["26"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 G2L["26"]["Size"] = UDim2.new(0, 9, 0, 313);
 G2L["26"]["Position"] = UDim2.new(-9.136999779002508e-08, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.Borders.Frame
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.Borders.Frame
 G2L["27"] = Instance.new("Frame", G2L["25"]);
 G2L["27"]["BorderSizePixel"] = 0;
 G2L["27"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 G2L["27"]["Size"] = UDim2.new(0, 663, 0, 6);
 G2L["27"]["Position"] = UDim2.new(-4.5963965078499314e-08, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody
 G2L["28"] = Instance.new("Frame", G2L["24"]);
 G2L["28"]["ZIndex"] = 2;
 G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -394,7 +394,7 @@ G2L["28"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["28"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["28"]["Name"] = [[InnerBody]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg
 G2L["29"] = Instance.new("ImageLabel", G2L["28"]);
 G2L["29"]["ZIndex"] = 2;
 G2L["29"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -408,7 +408,7 @@ G2L["29"]["Name"] = [[SourceBg]];
 G2L["29"]["BackgroundTransparency"] = 1;
 G2L["29"]["Position"] = UDim2.new(0, 10, 0, 38);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source
 G2L["2a"] = Instance.new("ScrollingFrame", G2L["29"]);
 G2L["2a"]["Active"] = true;
 G2L["2a"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
@@ -423,7 +423,7 @@ G2L["2a"]["ScrollBarThickness"] = 3;
 G2L["2a"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["2a"]["Name"] = [[Source]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame
 G2L["2b"] = Instance.new("ScrollingFrame", G2L["2a"]);
 G2L["2b"]["Active"] = true;
 G2L["2b"]["BorderSizePixel"] = 0;
@@ -434,7 +434,7 @@ G2L["2b"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["2b"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2b"]["ScrollBarThickness"] = 5;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.SourceBox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.SourceBox
 G2L["2c"] = Instance.new("TextBox", G2L["2b"]);
 G2L["2c"]["ZIndex"] = 7;
 G2L["2c"]["TextColor3"] = Color3.fromRGB(66, 66, 66);
@@ -453,7 +453,7 @@ G2L["2c"]["Font"] = Enum.Font.Code;
 G2L["2c"]["Name"] = [[SourceBox]];
 G2L["2c"]["ClearTextOnFocus"] = false;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.Lines
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.Lines
 G2L["2d"] = Instance.new("TextLabel", G2L["2b"]);
 G2L["2d"]["ZIndex"] = 2;
 G2L["2d"]["RichText"] = true;
@@ -469,7 +469,7 @@ G2L["2d"]["Name"] = [[Lines]];
 G2L["2d"]["Font"] = Enum.Font.Code;
 G2L["2d"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.Lines.Frame
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ScrollingFrame.Lines.Frame
 G2L["2e"] = Instance.new("Frame", G2L["2d"]);
 G2L["2e"]["ZIndex"] = 2;
 G2L["2e"]["BorderSizePixel"] = 0;
@@ -477,23 +477,23 @@ G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51);
 G2L["2e"]["Size"] = UDim2.new(0, -1, 1, 0);
 G2L["2e"]["Position"] = UDim2.new(1, 0, 0.0010000000474974513, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide
 G2L["2f"] = Instance.new("ModuleScript", G2L["2a"]);
 G2L["2f"]["Name"] = [[ide]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight
 G2L["30"] = Instance.new("ModuleScript", G2L["2f"]);
 G2L["30"]["Name"] = [[highlight]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight.lexer
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight.lexer
 G2L["31"] = Instance.new("ModuleScript", G2L["30"]);
 G2L["31"]["Name"] = [[lexer]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight.lexer.language
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.SourceBg.Source.ide.highlight.lexer.language
 G2L["32"] = Instance.new("ModuleScript", G2L["31"]);
 G2L["32"]["Name"] = [[language]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub
 G2L["33"] = Instance.new("ImageLabel", G2L["28"]);
 G2L["33"]["ZIndex"] = 2;
 G2L["33"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -508,7 +508,7 @@ G2L["33"]["BorderColor3"] = Color3.fromRGB(21, 21, 21);
 G2L["33"]["Name"] = [[Scripthub]];
 G2L["33"]["Position"] = UDim2.new(1, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts
 G2L["34"] = Instance.new("ScrollingFrame", G2L["33"]);
 G2L["34"]["Active"] = true;
 G2L["34"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
@@ -524,13 +524,13 @@ G2L["34"]["ScrollBarThickness"] = 3;
 G2L["34"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["34"]["Name"] = [[Scripts]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.UIListLayout
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.UIListLayout
 G2L["35"] = Instance.new("UIListLayout", G2L["34"]);
 G2L["35"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["35"]["Padding"] = UDim.new(0, 5);
 G2L["35"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy
 G2L["36"] = Instance.new("ImageLabel", G2L["34"]);
 G2L["36"]["ZIndex"] = -1;
 G2L["36"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -547,7 +547,7 @@ G2L["36"]["Name"] = [[dummy]];
 G2L["36"]["BackgroundTransparency"] = 1;
 G2L["36"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.icon
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.icon
 G2L["37"] = Instance.new("ImageLabel", G2L["36"]);
 G2L["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["37"]["AnchorPoint"] = Vector2.new(0, 0.5);
@@ -557,7 +557,7 @@ G2L["37"]["Name"] = [[icon]];
 G2L["37"]["BackgroundTransparency"] = 1;
 G2L["37"]["Position"] = UDim2.new(0, 5, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Hitbox
 G2L["38"] = Instance.new("TextButton", G2L["36"]);
 G2L["38"]["TextSize"] = 14;
 G2L["38"]["TextTransparency"] = 1;
@@ -570,7 +570,7 @@ G2L["38"]["Text"] = [[]];
 G2L["38"]["Font"] = Enum.Font.SourceSans;
 G2L["38"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Template
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Template
 G2L["39"] = Instance.new("TextLabel", G2L["36"]);
 G2L["39"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -584,7 +584,7 @@ G2L["39"]["Font"] = Enum.Font.SourceSans;
 G2L["39"]["BackgroundTransparency"] = 1;
 G2L["39"]["Position"] = UDim2.new(0, 25, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Delete
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.Scripts.dummy.Delete
 G2L["3a"] = Instance.new("ImageButton", G2L["36"]);
 G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(200, 19, 31);
 G2L["3a"]["ImageColor3"] = Color3.fromRGB(196, 196, 196);
@@ -595,7 +595,7 @@ G2L["3a"]["Name"] = [[Delete]];
 G2L["3a"]["Position"] = UDim2.new(1, 0, 0.5, 0);
 G2L["3a"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox
 G2L["3b"] = Instance.new("ImageLabel", G2L["33"]);
 G2L["3b"]["ZIndex"] = 2;
 G2L["3b"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -611,7 +611,7 @@ G2L["3b"]["BorderColor3"] = Color3.fromRGB(22, 22, 22);
 G2L["3b"]["Name"] = [[TextBox]];
 G2L["3b"]["Position"] = UDim2.new(0, 0, 0, -30);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.TextBox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.TextBox
 G2L["3c"] = Instance.new("TextBox", G2L["3b"]);
 G2L["3c"]["PlaceholderColor3"] = Color3.fromRGB(126, 126, 126);
 G2L["3c"]["ZIndex"] = 2;
@@ -632,7 +632,7 @@ G2L["3c"]["Position"] = UDim2.new(0.45694321393966675, 0, 0.5, 0);
 G2L["3c"]["Font"] = Enum.Font.SourceSans;
 G2L["3c"]["ClearTextOnFocus"] = false;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.ImageLabel
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.ImageLabel
 G2L["3d"] = Instance.new("ImageLabel", G2L["3b"]);
 G2L["3d"]["ZIndex"] = 2;
 G2L["3d"]["ScaleType"] = Enum.ScaleType.Fit;
@@ -644,11 +644,11 @@ G2L["3d"]["BorderColor3"] = Color3.fromRGB(231, 255, 0);
 G2L["3d"]["BackgroundTransparency"] = 1;
 G2L["3d"]["Position"] = UDim2.new(1, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.handler
 G2L["3e"] = Instance.new("LocalScript", G2L["3b"]);
 G2L["3e"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons
 G2L["3f"] = Instance.new("Frame", G2L["28"]);
 G2L["3f"]["ZIndex"] = 2;
 G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -658,14 +658,14 @@ G2L["3f"]["Size"] = UDim2.new(1, -129, 0, 24);
 G2L["3f"]["Position"] = UDim2.new(0, 10, 1, -8);
 G2L["3f"]["Name"] = [[BottomButtons]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.UIListLayout
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.UIListLayout
 G2L["40"] = Instance.new("UIListLayout", G2L["3f"]);
 G2L["40"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["40"]["FillDirection"] = Enum.FillDirection.Horizontal;
 G2L["40"]["Padding"] = UDim.new(0, 5);
 G2L["40"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn
 G2L["41"] = Instance.new("ImageButton", G2L["3f"]);
 G2L["41"]["Active"] = false;
 G2L["41"]["ZIndex"] = 2;
@@ -682,7 +682,7 @@ G2L["41"]["Name"] = [[ClearBtn]];
 G2L["41"]["Position"] = UDim2.new(0, 0, -1.5833333730697632, 0);
 G2L["41"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.ImageButton
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.ImageButton
 G2L["42"] = Instance.new("ImageButton", G2L["41"]);
 G2L["42"]["ZIndex"] = 2;
 G2L["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -693,7 +693,7 @@ G2L["42"]["Size"] = UDim2.new(0, 24, 0, 24);
 G2L["42"]["Position"] = UDim2.new(0.023000000044703484, 0, 0.5, 0);
 G2L["42"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.TextLabel
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.TextLabel
 G2L["43"] = Instance.new("TextButton", G2L["41"]);
 G2L["43"]["TextWrapped"] = true;
 G2L["43"]["Active"] = false;
@@ -711,7 +711,7 @@ G2L["43"]["Font"] = Enum.Font.SourceSans;
 G2L["43"]["Position"] = UDim2.new(0, 30, 0.5, 0);
 G2L["43"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.Hitbox
 G2L["44"] = Instance.new("TextButton", G2L["41"]);
 G2L["44"]["ZIndex"] = 3;
 G2L["44"]["TextSize"] = 14;
@@ -725,11 +725,11 @@ G2L["44"]["Text"] = [[]];
 G2L["44"]["Font"] = Enum.Font.SourceSans;
 G2L["44"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ClearBtn.handler
 G2L["45"] = Instance.new("LocalScript", G2L["41"]);
 G2L["45"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn
 G2L["46"] = Instance.new("ImageButton", G2L["3f"]);
 G2L["46"]["Active"] = false;
 G2L["46"]["ZIndex"] = 2;
@@ -746,7 +746,7 @@ G2L["46"]["Name"] = [[SaveBtn]];
 G2L["46"]["Position"] = UDim2.new(0, 0, -1.5833333730697632, 0);
 G2L["46"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.ImageButton
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.ImageButton
 G2L["47"] = Instance.new("ImageButton", G2L["46"]);
 G2L["47"]["ZIndex"] = 2;
 G2L["47"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -757,7 +757,7 @@ G2L["47"]["Size"] = UDim2.new(0, 24, 0, 24);
 G2L["47"]["Position"] = UDim2.new(0.023000000044703484, 0, 0.5, 0);
 G2L["47"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.TextLabel
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.TextLabel
 G2L["48"] = Instance.new("TextButton", G2L["46"]);
 G2L["48"]["TextWrapped"] = true;
 G2L["48"]["Active"] = false;
@@ -775,7 +775,7 @@ G2L["48"]["Font"] = Enum.Font.SourceSans;
 G2L["48"]["Position"] = UDim2.new(0, 30, 0.5, 0);
 G2L["48"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.Hitbox
 G2L["49"] = Instance.new("TextButton", G2L["46"]);
 G2L["49"]["ZIndex"] = 3;
 G2L["49"]["TextSize"] = 14;
@@ -789,11 +789,11 @@ G2L["49"]["Text"] = [[]];
 G2L["49"]["Font"] = Enum.Font.SourceSans;
 G2L["49"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.SaveBtn.handler
 G2L["4a"] = Instance.new("LocalScript", G2L["46"]);
 G2L["4a"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn
 G2L["4b"] = Instance.new("ImageButton", G2L["3f"]);
 G2L["4b"]["Active"] = false;
 G2L["4b"]["ZIndex"] = 2;
@@ -810,7 +810,7 @@ G2L["4b"]["Name"] = [[HideBtn]];
 G2L["4b"]["Position"] = UDim2.new(0, 0, -1.5833333730697632, 0);
 G2L["4b"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.ImageButton
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.ImageButton
 G2L["4c"] = Instance.new("ImageButton", G2L["4b"]);
 G2L["4c"]["ZIndex"] = 2;
 G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -821,7 +821,7 @@ G2L["4c"]["Size"] = UDim2.new(0, 24, 0, 24);
 G2L["4c"]["Position"] = UDim2.new(0.023000000044703484, 0, 0.5, 0);
 G2L["4c"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.TextLabel
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.TextLabel
 G2L["4d"] = Instance.new("TextButton", G2L["4b"]);
 G2L["4d"]["TextWrapped"] = true;
 G2L["4d"]["Active"] = false;
@@ -839,7 +839,7 @@ G2L["4d"]["Font"] = Enum.Font.SourceSans;
 G2L["4d"]["Position"] = UDim2.new(0, 30, 0.5, 0);
 G2L["4d"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.Hitbox
 G2L["4e"] = Instance.new("TextButton", G2L["4b"]);
 G2L["4e"]["ZIndex"] = 3;
 G2L["4e"]["TextSize"] = 14;
@@ -853,11 +853,11 @@ G2L["4e"]["Text"] = [[]];
 G2L["4e"]["Font"] = Enum.Font.SourceSans;
 G2L["4e"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.HideBtn.handler
 G2L["4f"] = Instance.new("LocalScript", G2L["4b"]);
 G2L["4f"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn
 G2L["50"] = Instance.new("ImageButton", G2L["3f"]);
 G2L["50"]["ZIndex"] = 2;
 G2L["50"]["BorderSizePixel"] = 0;
@@ -874,7 +874,7 @@ G2L["50"]["Name"] = [[ExecuteBtn]];
 G2L["50"]["Position"] = UDim2.new(0, 0, -1.5833333730697632, 0);
 G2L["50"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.ImageButton
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.ImageButton
 G2L["51"] = Instance.new("ImageButton", G2L["50"]);
 G2L["51"]["ZIndex"] = 2;
 G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -885,11 +885,11 @@ G2L["51"]["Size"] = UDim2.new(0, 24, 0, 24);
 G2L["51"]["Position"] = UDim2.new(0.022900763899087906, 0, 0.5, 0);
 G2L["51"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.LocalScript
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.LocalScript
 G2L["52"] = Instance.new("LocalScript", G2L["50"]);
 
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.TextLabel
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.TextLabel
 G2L["53"] = Instance.new("TextButton", G2L["50"]);
 G2L["53"]["TextWrapped"] = true;
 G2L["53"]["Active"] = false;
@@ -907,7 +907,7 @@ G2L["53"]["Font"] = Enum.Font.SourceSans;
 G2L["53"]["Position"] = UDim2.new(0, 30, 0.5, 0);
 G2L["53"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.ExecuteBtn.Hitbox
 G2L["54"] = Instance.new("TextButton", G2L["50"]);
 G2L["54"]["ZIndex"] = 3;
 G2L["54"]["TextSize"] = 14;
@@ -921,11 +921,11 @@ G2L["54"]["Text"] = [[]];
 G2L["54"]["Font"] = Enum.Font.SourceSans;
 G2L["54"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.BottomButtons.handler
 G2L["55"] = Instance.new("LocalScript", G2L["3f"]);
 G2L["55"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts
 G2L["56"] = Instance.new("ScrollingFrame", G2L["28"]);
 G2L["56"]["Active"] = true;
 G2L["56"]["BorderSizePixel"] = 0;
@@ -938,13 +938,13 @@ G2L["56"]["ScrollBarThickness"] = 3;
 G2L["56"]["Position"] = UDim2.new(0, 10, 0, 5);
 G2L["56"]["Name"] = [[OpenScripts]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.UIListLayout
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.UIListLayout
 G2L["57"] = Instance.new("UIListLayout", G2L["56"]);
 G2L["57"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["57"]["FillDirection"] = Enum.FillDirection.Horizontal;
 G2L["57"]["Padding"] = UDim.new(0, 5);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.999
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.999
 G2L["58"] = Instance.new("ImageButton", G2L["56"]);
 G2L["58"]["Active"] = false;
 G2L["58"]["ZIndex"] = 2;
@@ -961,7 +961,7 @@ G2L["58"]["Name"] = [[999]];
 G2L["58"]["Position"] = UDim2.new(0.1694599688053131, 0, 0, 0);
 G2L["58"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.999.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.999.Hitbox
 G2L["59"] = Instance.new("TextButton", G2L["58"]);
 G2L["59"]["TextWrapped"] = true;
 G2L["59"]["Active"] = false;
@@ -978,7 +978,7 @@ G2L["59"]["Text"] = [[+]];
 G2L["59"]["Font"] = Enum.Font.SourceSans;
 G2L["59"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1
 G2L["5a"] = Instance.new("ImageButton", G2L["56"]);
 G2L["5a"]["Active"] = false;
 G2L["5a"]["ZIndex"] = 2;
@@ -993,7 +993,7 @@ G2L["5a"]["Size"] = UDim2.new(0, 86, 0, 22);
 G2L["5a"]["Name"] = [[1]];
 G2L["5a"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.Text
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.Text
 G2L["5b"] = Instance.new("TextButton", G2L["5a"]);
 G2L["5b"]["Active"] = false;
 G2L["5b"]["ZIndex"] = 2;
@@ -1010,7 +1010,7 @@ G2L["5b"]["Font"] = Enum.Font.SourceSansBold;
 G2L["5b"]["Position"] = UDim2.new(0.151162788271904, 0, 0, 0);
 G2L["5b"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.X
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.X
 G2L["5c"] = Instance.new("TextButton", G2L["5a"]);
 G2L["5c"]["ZIndex"] = 10;
 G2L["5c"]["TextSize"] = 16;
@@ -1025,7 +1025,7 @@ G2L["5c"]["Font"] = Enum.Font.SourceSans;
 G2L["5c"]["Position"] = UDim2.new(1, 0, 0.5, 0);
 G2L["5c"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1.Hitbox
 G2L["5d"] = Instance.new("TextButton", G2L["5a"]);
 G2L["5d"]["ZIndex"] = 3;
 G2L["5d"]["TextSize"] = 14;
@@ -1039,7 +1039,7 @@ G2L["5d"]["Text"] = [[]];
 G2L["5d"]["Font"] = Enum.Font.SourceSans;
 G2L["5d"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games
+-- StarterGui.III.exe v8.Main.BodyClipping.Games
 G2L["5e"] = Instance.new("ImageLabel", G2L["23"]);
 G2L["5e"]["ZIndex"] = 0;
 G2L["5e"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -1054,7 +1054,7 @@ G2L["5e"]["Name"] = [[Games]];
 G2L["5e"]["BackgroundTransparency"] = 1;
 G2L["5e"]["Position"] = UDim2.new(0.00032929747248999774, 0, -0.0029999851249158382, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody
 G2L["5f"] = Instance.new("Frame", G2L["5e"]);
 G2L["5f"]["ZIndex"] = 0;
 G2L["5f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1065,7 +1065,7 @@ G2L["5f"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["5f"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["5f"]["Name"] = [[InnerBody]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.Title
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.Title
 G2L["60"] = Instance.new("TextLabel", G2L["5f"]);
 G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- G2L["60"]["FontFace"] = ;
@@ -1077,7 +1077,7 @@ G2L["60"]["Name"] = [[Title]];
 G2L["60"]["Font"] = Enum.Font.SourceSansBold;
 G2L["60"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame
 G2L["61"] = Instance.new("ScrollingFrame", G2L["5f"]);
 G2L["61"]["Active"] = true;
 G2L["61"]["BorderSizePixel"] = 0;
@@ -1089,13 +1089,13 @@ G2L["61"]["ScrollBarImageColor3"] = Color3.fromRGB(168, 168, 168);
 G2L["61"]["ScrollBarThickness"] = 5;
 G2L["61"]["Position"] = UDim2.new(0, 0, 0, 40);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.UIListLayout
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.UIListLayout
 G2L["62"] = Instance.new("UIListLayout", G2L["61"]);
 G2L["62"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["62"]["Padding"] = UDim.new(0, 5);
 G2L["62"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy
 G2L["63"] = Instance.new("Frame", G2L["61"]);
 G2L["63"]["BackgroundColor3"] = Color3.fromRGB(38, 38, 38);
 G2L["63"]["AnchorPoint"] = Vector2.new(1, 0);
@@ -1103,11 +1103,11 @@ G2L["63"]["LayoutOrder"] = 1;
 G2L["63"]["Size"] = UDim2.new(1, -50, 0, 100);
 G2L["63"]["Name"] = [[dummy]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.UICorner
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.UICorner
 G2L["64"] = Instance.new("UICorner", G2L["63"]);
 
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon
 G2L["65"] = Instance.new("ImageLabel", G2L["63"]);
 G2L["65"]["ScaleType"] = Enum.ScaleType.Crop;
 G2L["65"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1116,11 +1116,11 @@ G2L["65"]["Size"] = UDim2.new(0, 120, 0, 100);
 G2L["65"]["Name"] = [[GameIcon]];
 G2L["65"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.UICorner
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.UICorner
 G2L["66"] = Instance.new("UICorner", G2L["65"]);
 
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.fix
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.fix
 G2L["67"] = Instance.new("Frame", G2L["65"]);
 G2L["67"]["BorderSizePixel"] = 0;
 G2L["67"]["BackgroundColor3"] = Color3.fromRGB(38, 38, 38);
@@ -1129,17 +1129,17 @@ G2L["67"]["Size"] = UDim2.new(0, 5, 1, 0);
 G2L["67"]["Position"] = UDim2.new(1, 0, 0, 0);
 G2L["67"]["Name"] = [[fix]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.fix.UIGradient
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.GameIcon.fix.UIGradient
 G2L["68"] = Instance.new("UIGradient", G2L["67"]);
 G2L["68"]["Rotation"] = 90;
 G2L["68"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(168, 168, 168)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.UIGradient
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.UIGradient
 G2L["69"] = Instance.new("UIGradient", G2L["63"]);
 G2L["69"]["Rotation"] = 90;
 G2L["69"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(168, 168, 168)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Title
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Title
 G2L["6a"] = Instance.new("TextLabel", G2L["63"]);
 G2L["6a"]["TextWrapped"] = true;
 G2L["6a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
@@ -1154,7 +1154,7 @@ G2L["6a"]["Font"] = Enum.Font.SourceSansBold;
 G2L["6a"]["BackgroundTransparency"] = 1;
 G2L["6a"]["Position"] = UDim2.new(0, 130, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Backdoors
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.IIIs
 G2L["6b"] = Instance.new("TextLabel", G2L["63"]);
 G2L["6b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1162,13 +1162,13 @@ G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["6b"]["TextSize"] = 15;
 G2L["6b"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["6b"]["Size"] = UDim2.new(0, 100, 0, 20);
-G2L["6b"]["Text"] = [[- Backdoors: %d]];
-G2L["6b"]["Name"] = [[Backdoors]];
+G2L["6b"]["Text"] = [[- IIIs: %d]];
+G2L["6b"]["Name"] = [[IIIs]];
 G2L["6b"]["Font"] = Enum.Font.SourceSans;
 G2L["6b"]["BackgroundTransparency"] = 1;
 G2L["6b"]["Position"] = UDim2.new(0, 130, 0, 40);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Date
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Date
 G2L["6c"] = Instance.new("TextLabel", G2L["63"]);
 G2L["6c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1182,7 +1182,7 @@ G2L["6c"]["Font"] = Enum.Font.SourceSans;
 G2L["6c"]["BackgroundTransparency"] = 1;
 G2L["6c"]["Position"] = UDim2.new(0, 130, 0, 60);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play
 G2L["6d"] = Instance.new("Frame", G2L["63"]);
 G2L["6d"]["BackgroundColor3"] = Color3.fromRGB(0, 186, 78);
 G2L["6d"]["AnchorPoint"] = Vector2.new(1, 0);
@@ -1190,23 +1190,23 @@ G2L["6d"]["Size"] = UDim2.new(0, 30, 1, 0);
 G2L["6d"]["Position"] = UDim2.new(1, 0, 0, 0);
 G2L["6d"]["Name"] = [[Play]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.UICorner
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.UICorner
 G2L["6e"] = Instance.new("UICorner", G2L["6d"]);
 
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.fix
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.fix
 G2L["6f"] = Instance.new("Frame", G2L["6d"]);
 G2L["6f"]["BorderSizePixel"] = 0;
 G2L["6f"]["BackgroundColor3"] = Color3.fromRGB(38, 38, 38);
 G2L["6f"]["Size"] = UDim2.new(0, 5, 1, 0);
 G2L["6f"]["Name"] = [[fix]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.fix.UIGradient
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.fix.UIGradient
 G2L["70"] = Instance.new("UIGradient", G2L["6f"]);
 G2L["70"]["Rotation"] = 90;
 G2L["70"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(168, 168, 168)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.Icon
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.Icon
 G2L["71"] = Instance.new("ImageLabel", G2L["6d"]);
 G2L["71"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["71"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -1216,7 +1216,7 @@ G2L["71"]["Name"] = [[Icon]];
 G2L["71"]["BackgroundTransparency"] = 1;
 G2L["71"]["Position"] = UDim2.new(0.5, 3, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.Hitbox
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.dummy.Play.Hitbox
 G2L["72"] = Instance.new("TextButton", G2L["6d"]);
 G2L["72"]["TextSize"] = 14;
 G2L["72"]["TextTransparency"] = 1;
@@ -1229,7 +1229,7 @@ G2L["72"]["Text"] = [[]];
 G2L["72"]["Font"] = Enum.Font.SourceSans;
 G2L["72"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.info
+-- StarterGui.III.exe v8.Main.BodyClipping.Games.InnerBody.ScrollingFrame.info
 G2L["73"] = Instance.new("TextLabel", G2L["61"]);
 G2L["73"]["TextWrapped"] = true;
 G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1242,7 +1242,7 @@ G2L["73"]["Name"] = [[info]];
 G2L["73"]["Font"] = Enum.Font.Nunito;
 G2L["73"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings
 G2L["74"] = Instance.new("ImageLabel", G2L["23"]);
 G2L["74"]["ZIndex"] = 2;
 G2L["74"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
@@ -1257,25 +1257,25 @@ G2L["74"]["Name"] = [[Settings]];
 G2L["74"]["BackgroundTransparency"] = 1;
 G2L["74"]["Position"] = UDim2.new(0, 0, -0.003000000026077032, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.Borders
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.Borders
 G2L["75"] = Instance.new("Folder", G2L["74"]);
 G2L["75"]["Name"] = [[Borders]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.Borders.Frame
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.Borders.Frame
 G2L["76"] = Instance.new("Frame", G2L["75"]);
 G2L["76"]["BorderSizePixel"] = 0;
 G2L["76"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 G2L["76"]["Size"] = UDim2.new(0, 9, 0, 313);
 G2L["76"]["Position"] = UDim2.new(-9.136999779002508e-08, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.Borders.Frame
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.Borders.Frame
 G2L["77"] = Instance.new("Frame", G2L["75"]);
 G2L["77"]["BorderSizePixel"] = 0;
 G2L["77"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 G2L["77"]["Size"] = UDim2.new(0, 663, 0, 6);
 G2L["77"]["Position"] = UDim2.new(-4.5963965078499314e-08, 0, 0, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody
 G2L["78"] = Instance.new("Frame", G2L["74"]);
 G2L["78"]["ZIndex"] = 2;
 G2L["78"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1286,7 +1286,7 @@ G2L["78"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["78"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["78"]["Name"] = [[InnerBody]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.Title
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.Title
 G2L["79"] = Instance.new("TextLabel", G2L["78"]);
 G2L["79"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- G2L["79"]["FontFace"] = ;
@@ -1298,7 +1298,7 @@ G2L["79"]["Name"] = [[Title]];
 G2L["79"]["Font"] = Enum.Font.SourceSansBold;
 G2L["79"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame
 G2L["7a"] = Instance.new("ScrollingFrame", G2L["78"]);
 G2L["7a"]["Active"] = true;
 G2L["7a"]["BorderSizePixel"] = 0;
@@ -1310,13 +1310,13 @@ G2L["7a"]["ScrollBarImageColor3"] = Color3.fromRGB(168, 168, 168);
 G2L["7a"]["ScrollBarThickness"] = 5;
 G2L["7a"]["Position"] = UDim2.new(0, 0, 0, 43);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.UIListLayout
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.UIListLayout
 G2L["7b"] = Instance.new("UIListLayout", G2L["7a"]);
 G2L["7b"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["7b"]["Padding"] = UDim.new(0, 5);
 G2L["7b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy
 G2L["7c"] = Instance.new("Frame", G2L["7a"]);
 G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(38, 38, 38);
 G2L["7c"]["AnchorPoint"] = Vector2.new(1, 0);
@@ -1324,11 +1324,11 @@ G2L["7c"]["BackgroundTransparency"] = 1;
 G2L["7c"]["Size"] = UDim2.new(1, -50, 0, 25);
 G2L["7c"]["Name"] = [[dummy]];
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy.UICorner
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy.UICorner
 G2L["7d"] = Instance.new("UICorner", G2L["7c"]);
 
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy.Title
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.InnerBody.ScrollingFrame.dummy.Title
 G2L["7e"] = Instance.new("TextLabel", G2L["7c"]);
 G2L["7e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1343,15 +1343,15 @@ G2L["7e"]["Font"] = Enum.Font.SourceSans;
 G2L["7e"]["BackgroundTransparency"] = 1;
 G2L["7e"]["Position"] = UDim2.new(0, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Settings.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Settings.handler
 G2L["7f"] = Instance.new("LocalScript", G2L["74"]);
 G2L["7f"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.drag
+-- StarterGui.III.exe v8.Main.drag
 G2L["80"] = Instance.new("LocalScript", G2L["2"]);
 G2L["80"]["Name"] = [[drag]];
 
--- StarterGui.backdoor.exe v8.Main.Resize
+-- StarterGui.III.exe v8.Main.Resize
 G2L["81"] = Instance.new("TextButton", G2L["2"]);
 G2L["81"]["Active"] = false;
 G2L["81"]["TextSize"] = 14;
@@ -1365,15 +1365,15 @@ G2L["81"]["Name"] = [[Resize]];
 G2L["81"]["Font"] = Enum.Font.SourceSans;
 G2L["81"]["Position"] = UDim2.new(1, 0, 1, 0);
 
--- StarterGui.backdoor.exe v8.Main.Resize.UICorner
+-- StarterGui.III.exe v8.Main.Resize.UICorner
 G2L["82"] = Instance.new("UICorner", G2L["81"]);
 G2L["82"]["CornerRadius"] = UDim.new(0, 2);
 
--- StarterGui.backdoor.exe v8.Main.Resize.handler
+-- StarterGui.III.exe v8.Main.Resize.handler
 G2L["83"] = Instance.new("LocalScript", G2L["81"]);
 G2L["83"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.SavePopup
+-- StarterGui.III.exe v8.Main.SavePopup
 G2L["84"] = Instance.new("TextButton", G2L["2"]);
 G2L["84"]["ZIndex"] = 3;
 G2L["84"]["BorderSizePixel"] = 0;
@@ -1392,15 +1392,15 @@ G2L["84"]["Text"] = [[]];
 G2L["84"]["Font"] = Enum.Font.SourceSans;
 G2L["84"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.UICorner
+-- StarterGui.III.exe v8.Main.SavePopup.UICorner
 G2L["85"] = Instance.new("UICorner", G2L["84"]);
 
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.handler
+-- StarterGui.III.exe v8.Main.SavePopup.handler
 G2L["86"] = Instance.new("LocalScript", G2L["84"]);
 G2L["86"]["Name"] = [[handler]];
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.ImageLabel
+-- StarterGui.III.exe v8.Main.SavePopup.ImageLabel
 G2L["87"] = Instance.new("ImageLabel", G2L["84"]);
 G2L["87"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["87"]["ImageColor3"] = Color3.fromRGB(34, 34, 34);
@@ -1410,7 +1410,7 @@ G2L["87"]["Size"] = UDim2.new(0, 18, 0, 18);
 G2L["87"]["BackgroundTransparency"] = 1;
 G2L["87"]["Position"] = UDim2.new(1, -5, 0, 5);
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.ImageLabel.Hitbox
+-- StarterGui.III.exe v8.Main.SavePopup.ImageLabel.Hitbox
 G2L["88"] = Instance.new("TextButton", G2L["87"]);
 G2L["88"]["TextSize"] = 14;
 G2L["88"]["TextTransparency"] = 1;
@@ -1423,7 +1423,7 @@ G2L["88"]["Text"] = [[]];
 G2L["88"]["Font"] = Enum.Font.SourceSans;
 G2L["88"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.ImageLabel.icon
+-- StarterGui.III.exe v8.Main.SavePopup.ImageLabel.icon
 G2L["89"] = Instance.new("ImageLabel", G2L["87"]);
 G2L["89"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["89"]["ImageColor3"] = Color3.fromRGB(171, 171, 171);
@@ -1434,11 +1434,11 @@ G2L["89"]["Name"] = [[icon]];
 G2L["89"]["BackgroundTransparency"] = 1;
 G2L["89"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.ImageLabel.toggler
+-- StarterGui.III.exe v8.Main.SavePopup.ImageLabel.toggler
 G2L["8a"] = Instance.new("ModuleScript", G2L["87"]);
 G2L["8a"]["Name"] = [[toggler]];
 
--- StarterGui.backdoor.exe v8.Main.SavePopup.Title
+-- StarterGui.III.exe v8.Main.SavePopup.Title
 G2L["8b"] = Instance.new("TextLabel", G2L["84"]);
 G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- G2L["8b"]["FontFace"] = ;
@@ -1450,43 +1450,43 @@ G2L["8b"]["Name"] = [[Title]];
 G2L["8b"]["Font"] = Enum.Font.SourceSansBold;
 G2L["8b"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.utils
+-- StarterGui.III.exe v8.utils
 G2L["8c"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["8c"]["Name"] = [[utils]];
 
--- StarterGui.backdoor.exe v8.main
+-- StarterGui.III.exe v8.main
 G2L["8d"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["8d"]["Name"] = [[main]];
 
--- StarterGui.backdoor.exe v8.intro
+-- StarterGui.III.exe v8.intro
 G2L["8e"] = Instance.new("LocalScript", G2L["1"]);
 G2L["8e"]["Name"] = [[intro]];
 
--- StarterGui.backdoor.exe v8.scripthub
+-- StarterGui.III.exe v8.scripthub
 G2L["8f"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["8f"]["Name"] = [[scripthub]];
 
--- StarterGui.backdoor.exe v8.scripthub.scripts
+-- StarterGui.III.exe v8.scripthub.scripts
 G2L["90"] = Instance.new("ModuleScript", G2L["8f"]);
 G2L["90"]["Name"] = [[scripts]];
 
--- StarterGui.backdoor.exe v8.games
+-- StarterGui.III.exe v8.games
 G2L["91"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["91"]["Name"] = [[games]];
 
--- StarterGui.backdoor.exe v8.config
+-- StarterGui.III.exe v8.config
 G2L["92"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["92"]["Name"] = [[config]];
 
--- StarterGui.backdoor.exe v8.editor
+-- StarterGui.III.exe v8.editor
 G2L["93"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["93"]["Name"] = [[editor]];
 
--- StarterGui.backdoor.exe v8.magnolia
+-- StarterGui.III.exe v8.magnolia
 G2L["94"] = Instance.new("ModuleScript", G2L["1"]);
 G2L["94"]["Name"] = [[magnolia]];
 
--- StarterGui.backdoor.exe v8.secure
+-- StarterGui.III.exe v8.secure
 G2L["95"] = Instance.new("LocalScript", G2L["1"]);
 G2L["95"]["Name"] = [[secure]];
 
@@ -2839,18 +2839,18 @@ local dummy = container.dummy;
 dummy.Parent = nil;
 
 -- vars
-local backFormat = dummy.Backdoors.Text;
+local backFormat = dummy.IIIs.Text;
 local dateFormat = dummy.Date.Text;
 local teleporting = false;
 
 local ID_CARD = {};
 
 -- IMPORTANT, config.save must be called by the caller to actually store the games
-local function loadGame(placeId, backdoors, timestamp)
+local function loadGame(placeId, IIIs, timestamp)
 	placeId = tonumber(placeId); -- make sure json string index is converted to number
 	timestamp = timestamp or os.time();
-	-- check backdoors
-	if type(backdoors) ~= "table" or #backdoors == 0 then
+	-- check IIIs
+	if type(IIIs) ~= "table" or #IIIs == 0 then
 		return;
 	end
 	-- retrive game info
@@ -2861,7 +2861,7 @@ local function loadGame(placeId, backdoors, timestamp)
 	end
 	-- update settings
 	config.data.games[placeId] = {
-		backdoors = backdoors,
+		IIIs = IIIs,
 		timestamp = timestamp
 	};
 	-- check if card is already instanciated
@@ -2880,7 +2880,7 @@ local function loadGame(placeId, backdoors, timestamp)
 	end
 	-- update
 	local dateTime = DateTime.fromUnixTimestamp(timestamp);
-	card.Backdoors.Text = backFormat:format(#backdoors);
+	card.IIIs.Text = backFormat:format(#IIIs);
 	card.Date.Text = dateFormat:format(dateTime:ToIsoDate());
 	-- animation
 	card.Play.Hitbox.MouseLeave:Connect(function()
@@ -2914,7 +2914,7 @@ end
 
 local function loadGames(games)
 	for placeId, gameObj in next, games do
-		loadGame(placeId, gameObj.backdoors, gameObj.timestamp);
+		loadGame(placeId, gameObj.IIIs, gameObj.timestamp);
 	end
 end
 
@@ -2934,7 +2934,7 @@ local readfile = getgenv and readfile or function() return [==[]==]; end;
 local writefile = writefile or function() return true end;
 
 -- const
-local CONFIG_FILE = "backdoor-exe.json";
+local CONFIG_FILE = "III-exe.json";
 
 -- services
 local httpService = game:GetService("HttpService");
@@ -2956,7 +2956,7 @@ local canDebug = true;
 -- config struct
 --[[export type ScannerConfig = {
 	games: {[number]: {		-- index: gameId
-		backdoor: {string}, -- array of backdoors path
+		III: {string}, -- array of IIIs path
 		timestamp: number 	-- scanned at
 	}},
 	scripts: {[string] : string}, -- index: name, value: code
@@ -7008,7 +7008,7 @@ local script = G2L["21"];
 	onBtnClick(btns.HomeBtn);
 end;
 task.spawn(C_21);
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.handler
+-- StarterGui.III.exe v8.Main.BodyClipping.Executor.InnerBody.Scripthub.TextBox.handler
 local function C_3e()
 local script = G2L["3e"];
 	-- services
@@ -7444,7 +7444,7 @@ local script = G2L["83"];
 	);
 end;
 task.spawn(C_83);
--- StarterGui.backdoor.exe v8.Main.SavePopup.handler
+-- StarterGui.III.exe v8.Main.SavePopup.handler
 local function C_86()
 local script = G2L["86"];
 	
@@ -7502,7 +7502,7 @@ local script = G2L["86"];
 	end)
 end;
 task.spawn(C_86);
--- StarterGui.backdoor.exe v8.intro
+-- StarterGui.III.exe v8.intro
 local function C_8e()
 local script = G2L["8e"];
 	
